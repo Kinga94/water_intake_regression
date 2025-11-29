@@ -27,7 +27,7 @@ class DatasetPreparation:
         print(self.data_frame.dtypes, "\n")
         print("• Dataset statistics:")
         print(self.data_frame.describe(), "\n")
-        print("===== END OF REPORT =====\n")
+        print("===== =====\n")
 
     def remove_empty_columns(self):
         print("\n===== Step - Removing empty columns =====")
